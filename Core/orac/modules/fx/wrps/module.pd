@@ -1,5 +1,5 @@
-#N canvas 575 351 1426 863 10;
-#X obj 295 128 r notesIn-\$1;
+#N canvas 276 41 1370 729 10;
+#X obj 306 120 r notesIn-\$1;
 #X obj 295 607 s notesOut-\$1;
 #X obj 101 127 inlet~ inR;
 #X obj 16 126 inlet~ inL;
@@ -46,7 +46,7 @@
 #X obj 634 36 r w_gate-\$1;
 #X obj 434 127 r ctrlIn-\$1;
 #X obj 434 153 s ctrlOut-\$1;
-#X obj 419 191 unpack f f 0;
+#X obj 346 176 poly 1 1;
 #X connect 0 0 46 0;
 #X connect 2 0 9 1;
 #X connect 3 0 9 0;
@@ -88,5 +88,5 @@
 #X connect 41 0 22 0;
 #X connect 42 0 23 0;
 #X connect 43 0 19 0;
-#X connect 46 0 15 0;
-#X connect 46 1 28 0;
+#X connect 46 1 15 0;
+#X connect 46 2 28 0;
